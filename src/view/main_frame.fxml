@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainFrameController">
+   <children>
+       <ComboBox fx:id="queryComboBox" layoutX="10.0" layoutY="37.0" onAction="#onQuerySelected" prefWidth="150.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="30.0" />
+       <Label layoutX="14.0" layoutY="14.0" text="Выбор запроса" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0" />
+       <AnchorPane fx:id="responseParamsPane" layoutX="16.0" layoutY="70.0" prefHeight="281.0" prefWidth="200.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="65.0" />
+       <TableView fx:id="responseTable" layoutX="227.0" layoutY="14.0" prefHeight="373.0" prefWidth="359.0" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0" />
+      <Button fx:id="sendRequestButton" layoutX="15.0" layoutY="356.0" mnemonicParsing="false" onAction="#sendRequestButtonClick" text="Отправить" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" />
+   </children>
+</AnchorPane>

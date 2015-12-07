@@ -1,0 +1,17 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<fx:root type="javafx.scene.layout.VBox" xmlns:fx="http://javafx.com/fxml">
+    <Label text="Имя мастера"/>
+    <TextField fx:id="nameTextField"/>
+    <Label text="Фамилия мастера"/>
+    <TextField fx:id="surnameTextField"/>
+    <Label text="Отчество мастера"/>
+    <TextField fx:id="patronymicTextField"/>
+    <Label text="Название операции"/>
+    <TextField fx:id="titleTextField"/>
+    <Label text="Продолжительность"/>
+    <TextField fx:id="durationTextField"/>
+    <Label text="Цена"/>
+    <TextField fx:id="priceTextField"/>
+    <Button fx:id="sendRequestButton" text="Отправить" onAction="#onSendRequestButtonClick" />
+</fx:root>

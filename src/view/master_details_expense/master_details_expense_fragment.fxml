@@ -1,0 +1,11 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<fx:root type="javafx.scene.layout.VBox" xmlns:fx="http://javafx.com/fxml">
+    <Label text="Выбор мастера"/>
+    <ComboBox fx:id="masterComboBox"/>
+    <Label text="Начало периода"/>
+    <DatePicker fx:id="startDatePicker"/>
+    <Label text="Конец периода"/>
+    <DatePicker fx:id="expDatePicker"/>
+    <Button fx:id="sendRequestButton" text="Отправить" onAction="#onSendRequestButtonClick"/>
+</fx:root>
